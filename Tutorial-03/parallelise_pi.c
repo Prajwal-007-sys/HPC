@@ -125,6 +125,6 @@ int main()
 
     // Destroy mutex
     pthread_mutex_destroy(&mutex);
-
+    pthread_exit(0);
     return 0;
 }
