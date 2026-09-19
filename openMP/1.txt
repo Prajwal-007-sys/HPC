@@ -1,0 +1,5 @@
+Thread 0: x = 0
+: Iteration 0Thread 0: x = 0
+: Iteration 1Thread 1: x = 31178
+: Iteration 2Thread 1: x = 31179
+: Iteration 3Final value of x after the loop: 31179
