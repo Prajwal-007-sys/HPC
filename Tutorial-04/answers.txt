@@ -1,0 +1,26 @@
+Q1. 
+
+Q2.
+Enter n: - 10000
+Elapsed time 1: 0.000903 seconds
+Elapsed time 2: 0.003865 seconds
+
+Q4.
+Parallel traversal of a binary tree using Open MP to compute the sum of all node values
+
+Depth : Depth of the tree (input)
+Node values are randomized
+
+Process : 
+1. A function which calls a new thread on every node.
+2. Now, once the traversal reaches the leaf nodes, we will have threads asscoiated with every node
+3. Perform function callback
+4. Select 2 threads of  leaf at once, add their associated values and add that to their parent thread, and continue the flow upward. 
+===============================================================
+Depth      | Total Nodes     | Tree Sum        | Execution Time 
+===============================================================
+10         | 1023            | 52737           | 0.001379        s
+15         | 32767           | 1650562         | 0.038251        s
+20         | 1048575         | 52932202        | 1.161004        s
+22         | 4194303         | 211733934       | 4.410960        s
+
